@@ -35,7 +35,7 @@ def day2(input, score):
 def read_input(filename):
     input_data = open(filename, "r")
 
-    return list(input_data)
+    return input_data
 
 
 if __name__ == "__main__":
