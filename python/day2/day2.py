@@ -18,7 +18,6 @@ def read_input(filename):
     return list(input_data)
 
 
-rules = {}
 if __name__ == '__main__':
     day2(read_input("input"), part1)
     day2(read_input("input"), part2)
