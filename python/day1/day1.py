@@ -39,6 +39,6 @@ def read_input(filename):
     return list(input_data)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     part1(read_input("input"))
     part2(read_input("input"))
